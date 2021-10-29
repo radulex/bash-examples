@@ -1,0 +1,5 @@
+# Encryption
+gpg --symmetric --yes --batch --cipher-algo AES256 file
+
+# Decryption
+gpg --decrypt --yes --batch - file.gpg > file 
